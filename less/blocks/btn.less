@@ -1,0 +1,22 @@
+.all__links,
+.btn {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px;
+  font-family: "Oswald", "Arial", sans-serif;
+  color: #fff;
+  line-height: 1;
+  font-size: 14px;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  background-color: @yellow;
+  .transition();
+  
+  &:hover,
+  &:active {
+    background-color: @cyan;
+    .transition();
+  }
+}

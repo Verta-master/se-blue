@@ -1,0 +1,66 @@
+.benefits__list {
+  .reset();
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.benefits__item {
+  width: 30%;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  background-color: #fff;
+  background-color: @grey;
+//  box-shadow: 0 0 10px 5px rgba(1, 30, 74, 0.04);
+  
+  &:first-child {
+    .benefits__title::before {
+      background-image: url(../img/icons/icon-award.svg);
+    }
+  }
+  &:nth-child(2) {
+    .benefits__title::before {
+      background-image: url(../img/icons/icon-book.svg);
+    }
+  }
+  &:nth-child(3) {
+    .benefits__title::before {
+      background-image: url(../img/icons/icon-stationery.svg);
+    }
+  }
+  &:nth-child(4) {
+    .benefits__title::before {
+      background-image: url(../img/icons/icon-online.svg);
+    }
+  }
+  &:nth-child(5) {
+    .benefits__title::before {
+      background-image: url(../img/icons/icon-teacher.svg);
+    }
+  }
+}
+
+.benefits__title {
+  position: relative;
+  padding-left: 70px;
+  font-weight: 700;
+  font-size: 18px;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+  }
+}

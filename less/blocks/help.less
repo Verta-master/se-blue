@@ -1,0 +1,51 @@
+.help {
+  position: relative;
+  z-index: 1;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  text-align: center;
+  color: #fff;
+  background-color: @blue;
+  background-image: url(../img/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: @overlay;
+    z-index: 2;
+  }
+}
+
+.help__wrap {
+  position: relative;
+  z-index: 5;
+  
+  p {
+    font-size: 26px;
+    font-weight: 700;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  a {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    background-color: @yellow;
+    
+    &:hover,
+    &:active {
+      background-color: @cyan;
+      .transition();
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.btn__menu {
+  display: none;
+}
+
+.top__nav {
+  .reset();
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__nav__item {
+  flex-grow: 1;
+  font-family: "Oswald", "Arial", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  .transition();
+  
+  a {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  &:hover,
+  &:active,
+  &--active {
+    color: @yellow;
+    .transition();
+  }
+}

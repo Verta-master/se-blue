@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="85px" height="85px" viewBox="0 0 85 85" enable-background="new 0 0 85 85" xml:space="preserve">
+<g>
+	
+		<line fill="none" stroke="#394553" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="10" x1="28.833" y1="26.729" x2="56.166" y2="26.729"/>
+	
+		<line fill="none" stroke="#394553" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="10" x1="32.295" y1="32.686" x2="52.704" y2="32.686"/>
+	<g>
+		<g>
+			<path fill="#394553" d="M42.499,40.95c4.849,0,8.793,3.944,8.793,8.792s-3.944,8.793-8.793,8.793s-8.793-3.944-8.793-8.793
+				S37.65,40.95,42.499,40.95 M42.499,38.45c-6.236,0-11.293,5.054-11.293,11.292c0,6.236,5.057,11.293,11.293,11.293
+				c6.237,0,11.293-5.057,11.293-11.293C53.792,43.504,48.736,38.45,42.499,38.45L42.499,38.45z"/>
+		</g>
+		<g>
+			<path fill="#394553" d="M42.499,46.268c1.916,0,3.476,1.559,3.476,3.475s-1.56,3.475-3.476,3.475
+				c-1.917,0-3.476-1.559-3.476-3.475S40.583,46.268,42.499,46.268 M42.499,43.768c-3.301,0-5.976,2.674-5.976,5.975
+				c0,3.299,2.675,5.975,5.976,5.975s5.976-2.676,5.976-5.975C48.475,46.441,45.8,43.768,42.499,43.768L42.499,43.768z"/>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#394553" stroke-width="2.5" stroke-linejoin="round" stroke-miterlimit="10" points="
+				44.387,60.008 49.99,71.9 51.522,65.645 57.377,68.252 51.167,55.291 			"/>
+			<polyline fill="none" stroke="#394553" stroke-width="2.5" stroke-linejoin="round" stroke-miterlimit="10" points="
+				40.612,60.008 35.008,71.9 33.477,65.645 27.622,68.252 32.005,59.24 			"/>
+		</g>
+	</g>
+	<polyline fill="none" stroke="#394553" stroke-width="2.5" stroke-miterlimit="10" points="28.264,56.432 13,56.432 13,13.099 
+		72,13.099 72,56.432 57.039,56.432 	"/>
+	<g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<polyline fill="none" stroke="#394553" stroke-width="2.5" stroke-miterlimit="10" points="18.395,25.57 18.395,18.279 
+							25.684,18.279 						"/>
+						<polyline fill="none" stroke="#394553" stroke-width="2.5" stroke-miterlimit="10" points="59.314,18.279 66.605,18.279 
+							66.605,25.57 						"/>
+					</g>
+				</g>
+				<g>
+					<g>
+						<polyline fill="none" stroke="#394553" stroke-width="2.5" stroke-miterlimit="10" points="66.605,43.961 66.605,51.25 
+							59.314,51.25 						"/>
+						<polyline fill="none" stroke="#394553" stroke-width="2.5" stroke-miterlimit="10" points="25.684,51.25 18.395,51.25 
+							18.395,43.961 						"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

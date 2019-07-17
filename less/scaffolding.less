@@ -1,0 +1,85 @@
+body {
+  width: 100%;
+  max-width: 100%;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: @black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+figure {
+  .reset();
+}
+
+textarea,
+input,
+button {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1,
+.center {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 36px;
+  position: relative;
+  
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 3px;
+    background-color: @cyan;
+  }
+}
+
+h3 {
+  color: @cyan;
+}
